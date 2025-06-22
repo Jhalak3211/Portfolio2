@@ -1,0 +1,21 @@
+1.Favicon is used to change icon in browser.
+2.inside src ,created a file utils.js which can utilise images from asset folder.
+to dynamically use images on our website we use the url function in utils.js.
+
+
+//ERRORS
+
+
+3.In app.jsx file while making function ,use return "("...." ); " otw error
+4.in App.module.css file while designing menu items we use {list-style:none}to remove bullet points in list.
+5.use bash for npm run dev command.
+6.ctrl+c: to restart the server in bash.
+7.make sure that u are in a folder which contains package.json file while running npm run dev otw error in file.
+8.if error: you can check in which directory u are.
+
+// ERROR:SERVER NOT STARTING:
+STEPS:
+1.in Bash: pwd      (printing working directory)
+2.cd react-portfolio
+3.npm run dev
+
