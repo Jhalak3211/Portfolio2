@@ -16,6 +16,11 @@ to dynamically use images on our website we use the url function in utils.js.
 // ERROR:SERVER NOT STARTING:
 STEPS:
 1.in Bash: pwd      (printing working directory)
+also can use ls(to list all files)
 2.cd react-portfolio
 3.npm run dev
 
+//ERROR: NO UPDATE IN FILE PATH:
+due to auto save in one drive
+steps:
+copy and paste to any other file in D drive
