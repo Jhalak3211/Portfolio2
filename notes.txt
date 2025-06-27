@@ -18,6 +18,7 @@ STEPS:
 1.in Bash: pwd      (printing working directory)
 also can use ls(to list all files)
 2.cd react-portfolio
+if error run "cd .." to get move one folder above
 3.npm run dev
 
 //ERROR: NO UPDATE IN FILE PATH:
