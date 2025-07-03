@@ -1,5 +1,5 @@
 import React ,{useState}from 'react';
-import{getImageUrl} from "../../utils";
+
 import styles from"./navbar.module.css";
 
 
@@ -22,8 +22,9 @@ import styles from"./navbar.module.css";
         className={styles.menuBtn} 
         src={
             menuOpen
-            ?getImageUrl("nav/menuIcon.png")
-            :getImageUrl("nav/closeIcon.png")
+            ?"assets/nav/closeIcon.png"
+            :"assets/nav/menuIcon.png"
+            
         } 
         alt="menu-button"
         onClick={()=>setMenuOpen(!menuOpen)}      

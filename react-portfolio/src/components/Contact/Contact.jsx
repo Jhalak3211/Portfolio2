@@ -2,6 +2,11 @@ import React from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
+
+
+
 
 export const Contact = () => {
   return (
@@ -12,19 +17,17 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="jhalak.20244086@mnnit.ac.in">myemail@email.com</a>
+         
+                 
+          <a href="jhalak.20244086@mnnit.ac.in"><FaEnvelope/> Email</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/jhalak-yadav/">linkedin.com/myname</a>
+            <a href="https://www.linkedin.com/in/jhalak-yadav-1a5118320/"><FaLinkedin /> LinkedIn</a>
+          
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Jhalak3211">github.com/myname</a>
+          
+         <a href="https://github.com/Jhalak3211"><FaGithub /> GitHub</a>
         </li>
       </ul>
     </footer>

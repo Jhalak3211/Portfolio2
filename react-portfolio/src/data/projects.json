@@ -1,26 +1,28 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
+    "title": "Animation",
+    "imageSrc": "magic_welcome.gif",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["Figma", "React", "JavaScript"],
+    
+    "source": "/assets/projects/magic_welcome.gif"
+  },
+
+  {
+    "title": "Design A",
+    "imageSrc": "designA.png",
+    "description": "Energy drink poster with bold visuals and fruity freshness.",
+    "skills": [" Adobe Photoshop"],
+    
+    "source": "/assets/projects/designA.png"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Design B",
+    "imageSrc": "designB.png",
+    "description": "Nike Air Max landing page with a sleek, modern look.",
+    "skills": ["Adobe Photoshop"],
+    
+    "source": "/assets/projects/designB.png"
   }
+  
 ]

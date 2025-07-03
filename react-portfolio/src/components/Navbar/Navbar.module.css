@@ -17,8 +17,12 @@
     color: var(--color-text);
 }
 .menu{
-    display: flex;                                 /*for responsive website */
+    display:flex;                                 /*for responsive website */
 }
+.menuBtn{
+        display: none;
+        cursor: pointer;
+    }
 .menuItems{
     display:flex;
     gap:47px;
