@@ -2,7 +2,7 @@
   {
     "title": "Animation",
     "imageSrc": "magic_welcome.gif",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "An engaging animation where a magician’s wand creates a delightful surprise.",
     "skills": ["Figma", "React", "JavaScript"],
     
     "source": "/assets/projects/magic_welcome.gif"
