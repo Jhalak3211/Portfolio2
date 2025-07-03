@@ -20,15 +20,21 @@
     margin-left: 25px;
     margin-bottom: 33px;
     font-family: var(--font-Roboto);
-    background:linear-gradient(
+    color:#fff
+    /* background: linear-gradient(90deg, #ff6a00, #ee0979); /* example: orange to pink */
+    /* webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */ 
+
+    /* background: linear-gradient(
         90deg,
         rgba(255,255,255,1)70%,
         rgba(255,255,255,0) 120%
     );
     
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
+
 .description{
     margin-left: 25px;
     font-size: 30px;
