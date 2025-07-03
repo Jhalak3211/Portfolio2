@@ -7,9 +7,10 @@ export const Hero = () => {
   return (
   <section className={styles.container}>
     <div className={styles.content}>
-        <h1 className={styles.tittle}>
-          Hi, I'm Jhalak
+         <h1 className={styles.tittle}>
+            Hi, I'm Jhalak
           </h1>
+
         <p className={styles.description}>A B.Tech student at MNNIT Allahabad, specializing in Electronics Engineering. I'm passionate about combining creativity with technology—currently exploring graphic design and diving into web development 
 
         </p>
