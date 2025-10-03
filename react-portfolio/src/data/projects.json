@@ -17,10 +17,10 @@
     "source": "/assets/projects/designA.png"
   },
   {
-    "title": "LMS",
+    "title": "Learning Management System",
     "imageSrc": "designB.png",
-    "description": "Learning Management System",
-    "skills": ["Full Stack"],
+    "description": "Engineered a RESTful API with Node.js/Express, managing secure user authentication (JWT) for student and admin roles, and handling database transactions via Mongoose.",
+    "skills": ["MERN Stack"],
     
     "source": "/assets/projects/designB.png"
   }
