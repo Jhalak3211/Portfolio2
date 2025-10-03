@@ -17,10 +17,10 @@
     "source": "/assets/projects/designA.png"
   },
   {
-    "title": "Design B",
+    "title": "LMS",
     "imageSrc": "designB.png",
-    "description": "Nike Air Max landing page with a sleek, modern look.",
-    "skills": ["Adobe Photoshop"],
+    "description": "Learning Management System",
+    "skills": ["Full Stack"],
     
     "source": "/assets/projects/designB.png"
   }
