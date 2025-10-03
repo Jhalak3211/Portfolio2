@@ -15,7 +15,7 @@ export const About = () => {
         <li className={styles.aboutItem}>
           <img src="/assets/about/cursorIcon.png" alt="cursor Icon" />
           <div className={styles.aboutItemsText}>
-           <h3>Frontend Developer</h3>
+           <h3>Frontend </h3>
            <p>
               Built using React.js, Tailwind CSS, React Router, and JavaScript, with smooth navigation and modular components.
            </p>
@@ -24,7 +24,7 @@ export const About = () => {
        <li  className={styles.aboutItem}>
           <img src="/assets/about/serverIcon.png" alt="Server Icon"/>
            <div className={styles.aboutItemsText}>
-          <h3>Backend Developer</h3>
+          <h3>Backend</h3>
           <p>
              Focused purely on frontend — currently exploring backend integration for future improvements.
           </p>
@@ -33,7 +33,7 @@ export const About = () => {
       <li  className={styles.aboutItem}>
           <img src= "/assets/about/uiIcon.png" alt="UI Icon"/>
           <div className={styles.aboutItemsText}>
-            <h3>Design Skills</h3>
+            <h3>Design</h3>
             <p>
              Designed using Figma for UI/UX planning, focusing on clean layouts and visual consistency.
             </p>
