@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Animation",
+    "imageSrc": "magic_welcome.gif",
+    "description": "An engaging animation where a magician’s wand creates a delightful surprise.",
+    "skills": ["Figma", "React", "JavaScript"],
+    
+    "source": "/assets/projects/magic_welcome.gif"
+  },
+
+  {
+    "title": "Design A",
+    "imageSrc": "designA.png",
+    "description": "Energy drink poster with bold visuals and fruity freshness.",
+    "skills": [" Adobe Photoshop"],
+    
+    "source": "/assets/projects/designA.png"
+  },
+  {
+    "title": "Learning Management System",
+    "imageSrc": "progress.jpg",
+    "description": "Engineered a RESTful API with Node.js/Express, managing secure user authentication (JWT) for student and admin roles, and handling database transactions via Mongoose.",
+    "skills": ["MERN Stack"],
+    
+    "source": ""
+  }
+  
+]

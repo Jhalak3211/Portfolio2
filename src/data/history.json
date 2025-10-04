@@ -1,0 +1,28 @@
+[
+  {
+  "role": " Project ",
+  "organisation": "Personal",
+  "startDate": "2024",
+  "endDate": "Present",
+  "experiences": [
+   "Built interactive portfolio websites and landing pages",
+   "Created animations and integrated GIFs for enhanced user experience",
+  " Used EJS templating and minimal backend for dynamic content."
+
+  ]
+ 
+ },
+
+  {
+  "role": "Designer ",
+  "organisation": "Media House of MNNIT",
+  "startDate": " 2024",
+  "endDate": "Present",
+  "experiences": [
+   "Designed posters and social media graphics for events",
+   "Collaborated with teams to create visually appealing content",
+   "Utilized Figma for UI/UX design and prototyping"
+  ]
+}
+
+]
