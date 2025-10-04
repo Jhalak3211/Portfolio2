@@ -1,11 +1,11 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "html.png"
+    "title": "MongoDB",
+    "imageSrc": "mongodb.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "css.png"
+    "title": "Github",
+    "imageSrc": "github.png"
   },
   {
     "title": "React",
@@ -16,8 +16,8 @@
     "imageSrc": "figma.png"
   },
     {
-    "title": "Node",
-    "imageSrc": "node.png"
+    "title": " Vercel",
+    "imageSrc": "vercel.svg"
   },
    {
     "title": "Photoshop",

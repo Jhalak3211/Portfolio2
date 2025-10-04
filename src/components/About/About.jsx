@@ -15,18 +15,20 @@ export const About = () => {
         <li className={styles.aboutItem}>
           <img src="/assets/about/cursorIcon.png" alt="cursor Icon" />
           <div className={styles.aboutItemsText}>
-           <h3>Frontend </h3>
+           <h3>Logic & Algorithmic Foundations</h3>
            <p>
-              Built using React.js, Tailwind CSS, React Router, and JavaScript, with smooth navigation and modular components.
-           </p>
+              Algorithmic Application: Proficient in applying fundamental Data Structures and Algorithms (DSA) principles to solve practical programming challenges and ensure basic system efficiency.
+              Code Quality & Version Control: Commitment to writing modular, maintainable code and leveraging Git and GitHub for robust project tracking and collaborative workflows
+              </p>
           </div>
       </li>
        <li  className={styles.aboutItem}>
           <img src="/assets/about/serverIcon.png" alt="Server Icon"/>
            <div className={styles.aboutItemsText}>
-          <h3>Backend</h3>
+          <h3>Developpment</h3>
           <p>
-             Focused purely on frontend — currently exploring backend integration for future improvements.
+            Engineered robust RESTful APIs with Node.js/Express.js, focusing on efficient routing, middleware, and secure user authentication (JWT/sessions).
+            Built highly responsive user interfaces with React.js components and styling frameworks like Tailwind CSS.
           </p>
           </div>
       </li>
@@ -35,8 +37,12 @@ export const About = () => {
           <div className={styles.aboutItemsText}>
             <h3>Design</h3>
             <p>
-             Designed using Figma for UI/UX planning, focusing on clean layouts and visual consistency.
-            </p>
+             Utilized Figma for comprehensive UI/UX planning, including wireframing and prototyping to ensure user-centric flows.
+
+             Focused on implementing intuitive interactions, smooth animations, and clean navigation while maintaining web accessibility standards.
+
+             Skilled at translating high-fidelity designs into pixel-perfect, component-based reality.
+             </p>
           </div>
       </li>
 

@@ -1,27 +1,27 @@
 [
   {
-  "role": " Project ",
-  "organisation": "Personal",
-  "startDate": "2024",
-  "endDate": "Present",
+  "role": " PERSONAL ",
+  "organisation": "PORTFOLIO",
+  "startDate": "",
+  "endDate": "",
   "experiences": [
    "Built interactive portfolio websites and landing pages",
    "Created animations and integrated GIFs for enhanced user experience",
-  " Used EJS templating and minimal backend for dynamic content."
+  " and minimal backend for dynamic content."
 
   ]
  
  },
 
   {
-  "role": "Designer ",
-  "organisation": "Media House of MNNIT",
-  "startDate": " 2024",
+  "role": "MERN PROJECT ",
+  "organisation": "",
+  "startDate": " ",
   "endDate": "Present",
   "experiences": [
-   "Designed posters and social media graphics for events",
-   "Collaborated with teams to create visually appealing content",
-   "Utilized Figma for UI/UX design and prototyping"
+   "A LEARNING  MANAGEMENT SYSTEM",
+   "Developing a full-featured Learning Management System (LMS) designed to facilitate online education and skill development.",
+   "The platform provides user authentication, course creation tools, progress tracking, and interactive quizzes for effective knowledge assessment."
   ]
 }
 

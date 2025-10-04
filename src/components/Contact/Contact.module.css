@@ -1,15 +1,22 @@
 @import "../../vars.css";
 
+/* --- Base Container Styles --- */
 .container {
   color: var(--color-text);
   margin-top: 120px;
   background-color: var(--color-dark);
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column; /* Start with column layout for better organization */
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   padding: 58px 10%;
-  gap: 10px;
+  gap: 40px; /* Increased gap for better spacing */
+}
+
+/* --- Heading and Text Styles --- */
+.text {
+    text-align: center; /* Center the introduction text */
 }
 
 .text h2 {
@@ -24,17 +31,98 @@
   letter-spacing: 2px;
 }
 
+/* --- Form and Links Wrapper (New Layout for desktop) --- */
+.formSection {
+    display: flex;
+    flex-direction: row; /* Two columns on desktop */
+    justify-content: space-between;
+    align-items: flex-start; /* Align form/links to the top */
+    width: 100%;
+    max-width: 1200px; /* Cap the max width of content */
+    gap: 60px;
+}
+
+/* --- Contact Form Styles (NEW) --- */
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allows the form to take up half of the available space */
+    min-width: 300px;
+    padding: 20px;
+    background-color: var(--color-background-dark); /* Subtle background for the form area */
+    border-radius: 10px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contactForm label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: var(--color-text);
+}
+
+.contactForm input,
+.contactForm textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-darker); /* Darker shade for input fields */
+    color: var(--color-text);
+    font-size: 1em;
+}
+
+.contactForm textarea {
+    resize: vertical;
+}
+
+.contactForm button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--color-primary); /* Use your primary accent color */
+    color: var(--color-dark); /* Ensure text is visible on the primary color */
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contactForm button:hover {
+    background-color: var(--color-secondary); /* Hover effect */
+}
+
+.successMessage {
+    color: #4CAF50; /* Green color for success */
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.errorMessage {
+    color: #f44336; /* Red color for error */
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* --- Existing Links/Icons Styles --- */
 .links {
   display: flex;
   flex-direction: column;
-  align-items:start;
+  align-items:flex-start; /* Aligned to the left */
   list-style: none;
   gap: 26px;
+  flex: 1;
 }
 
 .link {
   display: flex;
-  align-items:flex-end;
+  align-items:center; /* Vertically align icons and text */
   gap: 25px;
 }
 
@@ -44,21 +132,35 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  /* Style icons slightly larger */
+}
+.link a svg {
+    font-size: 1.5em; /* Make the icons a bit bigger than the text */
 }
 
+/* --- Responsiveness (Tablet/Mobile) --- */
 @media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
+    .container {
+        padding: 50px 5%; /* Reduce padding on smaller screens */
+    }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    .formSection {
+        flex-direction: column; /* Stack the form and links vertically */
+        align-items: center;
+        gap: 50px;
+    }
 
-  .links {
-    align-items: center;
-  }
+    .text h2 {
+        font-size: 60px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .links {
+        align-items: center; /* Center the links when stacked */
+        gap: 30px;
+        padding-top: 20px; /* Add space between form and links */
+    }
 }
