@@ -1,8 +1,8 @@
 import React from 'react';
-import SplineAnimation from '../SplineAnimation'; // Your Spline component
+// import SplineAnimation from '../SplineAnimation'; // REMOVED
 import styles from "./Hero.module.css";
-import Spline from "@splinetool/react-spline";
-
+// Assuming you have a path function for image assets, but using direct path for simplicity
+// If your original code used an import like 'import heroImage from "..."', please restore that.
 
 export const Hero = () => {
   return (
@@ -18,11 +18,12 @@ export const Hero = () => {
           <a href="mailto:jhalak.20244086@mnnit.ac.in" className={styles.contactBtn}>Contact Me</a>
       </div>
 
-      {/* */}
-      <div className={styles.heroImgContainer}> 
-        <SplineAnimation />
-      </div>
-      {/* --------------------------------------------------- */}
+      {/* RESTORED: The original static image tag */}
+      <img
+          src="assets/hero/heroImage.png" // RESTORED: Uses the path to your static image
+          alt="Hero image of me"
+          className={styles.heroImg} // RESTORED: Uses the class for styling and animation
+      />
 
 
       <div className={styles.topBlur}/>

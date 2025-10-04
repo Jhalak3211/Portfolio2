@@ -24,7 +24,7 @@
     margin-bottom: 33px;
     font-family: var(--font-Roboto);
     color:#fff
-    /* (CSS gradients remain commented out) */
+    /* (Any commented out styles remain) */
 }
 
 .description{
@@ -46,30 +46,15 @@
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 }
 
-/* 🛑 NEW STYLING FOR SPLINE CONTAINER 🛑 */
-.heroSplineContainer {
-    /* Takes the place of the old heroImg class */
-    width: 350px; /* Example fixed size for the circular frame */
-    height: 350px; /* Example fixed size for the circular frame */
-    z-index: 1;
-    
-    /* Ensure the animation is contained in a circle */
-    border-radius: 50%;
-    overflow: hidden; /* CRUCIAL: Clips the 3D scene to the circle */
-    
-    /* Reusing the floating animation for the 3D scene */
+/* RESTORED: Original styling for the static image */
+.heroImg{
+    width:50%;
+    z-index:1;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    
-    /* Ensures the container takes up the correct space */
-    flex-shrink: 0; 
+    animation-timing-function: ease ease-in-out;
 }
-
-/* 🛑 OLD .heroImg CLASS HAS BEEN REMOVED/REPLACED 🛑 */
-/* The styles for the old image are now applied to .heroSplineContainer */
-
 
 /* FOR ANIMATION DETAILS*/
 @keyframes floating{
@@ -89,14 +74,13 @@
     height:50vw;
     width:50vw;
     min-width:350px;
-    /* Removed duplicate min-width:350px; */
+    min-width:350px;
     top:-128px;
     left:-10vw;
     border-radius: 764px;
     background:rgba(25,55,109,0.7);
     filter:blur(100px);
     z-index:0
-
 }
 
 .bottomBlur{
@@ -104,7 +88,7 @@
     width:70vw;
     height:50vw;
     min-width:350px;
-    /* Corrected: min-width:250px; */
+    min-width:250px;
     top: 246px;
     right:-25vw;
     border-radius: 764px;
@@ -120,10 +104,5 @@
     .content{
     align-items:center;
     }
-    /* Adjust Spline size on mobile */
-    .heroSplineContainer {
-        width: 250px; 
-        height: 250px;
-        margin-bottom: 20px; /* Add some space when stacked vertically */
-    }
+    
 }
